@@ -9,10 +9,15 @@ const Home = () =>  {
     return (
         <div className={classes.content}>
             <h2>Quick Start : React Dark/Light Mode</h2>
-            <h3>Build with : ReactJS - React Router - Material UI</h3>
+            <h3>Build with : ReactJS - React Router - Material Style</h3>
             <div className={classes.code}>
-                git clone
+                <span className={classes.titleCode}>Clone with SSH</span>
+                <p className={classes.editor}>git clone git@github.com:RobinPalmier/Quick-Start-React-DarkMode.git</p>
+                <span className={classes.titleCode}>Clone with HTTPS</span>
+                <p className={classes.editor}>git clone https://github.com/RobinPalmier/Quick-Start-React-DarkMode.git</p>
             </div>
+
+            <p>Credits : Robin Palmier</p>
         </div>
     )
 }

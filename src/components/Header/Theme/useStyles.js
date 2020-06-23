@@ -4,7 +4,7 @@ const useStyles = makeStyles({
     iconeThemeChange:{
         width:30,
         cursor: 'pointer',
-        animation: `$darkLightMode 100ms ease-in`,
+        animation: `$darkLightMode 500ms ease-in`,
         transition: '0.5s',
         position: 'absolute',
         right: '5%',
