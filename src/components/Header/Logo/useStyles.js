@@ -1,10 +1,10 @@
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles({
-    logoGwadas:{
+    logoReactJS:{
         width:500,
         margin: '50px auto 0px auto;',
-        fill : props => props ? '#EDEDED' : '#272726',
+        fill : props => props.isDark ? props.themeLight : props.themeDark,
         animation: '$rotate 10s linear infinite',
         '-webkit-transform': '$rotate 10s linear infinite',
         '-ms-transform': '$rotate 10s linear infinite',

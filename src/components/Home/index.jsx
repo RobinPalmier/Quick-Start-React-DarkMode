@@ -4,7 +4,7 @@ import useStyles from './useStyles';
 
 const Home = () =>  {
     const { state } = useContext(Context);
-    const classes = useStyles(state.isDark);
+    const classes = useStyles(state);
 
     return (
         <div className={classes.content}>

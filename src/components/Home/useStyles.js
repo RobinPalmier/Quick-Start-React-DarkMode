@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles({
     content: {
-        color: props => props ? '#EDEDED' : '#272726',
+        color: props => props.isDark ? '#EDEDED' : '#272726',
         textAlign: 'center',
         fontFamily: 'monospace',
     },

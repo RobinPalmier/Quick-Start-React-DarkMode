@@ -1,5 +1,6 @@
 import { useReducer } from 'react';
 import storage from 'local-storage-fallback'
+import palette from '../assets/style/colors';
 
 const reducer = (state, action) => {
     switch (action.type) {
@@ -7,6 +8,8 @@ const reducer = (state, action) => {
             storage.setItem('isDark', !state.isDark);
             return {
                 isDark: !state.isDark,
+                themeLight: palette.themeLight,
+                themeDark: palette.themeDark,
             }
         default: {
             return state;
@@ -16,12 +19,13 @@ const reducer = (state, action) => {
 
 const useGlobalState = () => {
     const [state, dispatch] = useReducer(reducer, {
-      isDark: storage.getItem('isDark') 
-        ? JSON.parse(storage.getItem('isDark')) 
-        : true,  
+        theme: { palette },
+        isDark: storage.getItem('isDark') 
+            ? JSON.parse(storage.getItem('isDark')) 
+            : true,
     })
-
-    return {state, dispatch};
+    
+    return { state, dispatch };
 }
 
 export default useGlobalState;

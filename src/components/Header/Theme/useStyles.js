@@ -13,6 +13,8 @@ const useStyles = makeStyles({
             transform: 'scale(0.5, 0.5)',
             '-webkit-transform': 'scale(0.5, 0.5)',
             '-ms-transform': 'scale(0.5, 0.5)',
+            '-moz-transform': 'scale(0.5, 0.5)',
+            '-o-transform': 'scale(0.5, 0.5)',
         }
     },
     "@keyframes darkLightMode": {
@@ -21,6 +23,8 @@ const useStyles = makeStyles({
           transform: 'scale(0, 0)',
           '-webkit-transform': 'scale(0, 0)',
           '-ms-transform': 'scale(0, 0)',
+          '-moz-transform': 'scale(0, 0)',
+          '-o-transform': 'scale(0, 0)',
           transition: '0.5s',
         },
         "100%": {
@@ -28,6 +32,8 @@ const useStyles = makeStyles({
             transform: 'scale(1, 1)',
             '-webkit-transform': 'scale(1, 1)',
             '-ms-transform': 'scale(1, 1)',
+            '-moz-transform': 'scale(1, 1)',
+            '-o-transform': 'scale(1, 1)',
           }
       }
 });
