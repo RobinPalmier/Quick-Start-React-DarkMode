@@ -27,8 +27,8 @@
 
 ---
  #### How to use :
+* Open [tweetMonitoring-frontend](./src/assets/style/colors.js) colors.js file.
 * 
-*
 *
 
 ---
