@@ -27,7 +27,7 @@
 
 ---
  #### How to use :
-* Open [colors.js](./src/assets/style/colors.js) colors.js file.
+* Open [colors.js](./src/assets/style/colors.js) file.
 * 
 *
 
