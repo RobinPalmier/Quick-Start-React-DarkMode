@@ -15,7 +15,7 @@ const useStyles = makeStyles({
             '-ms-transform': 'scale(0.5, 0.5)',
             '-moz-transform': 'scale(0.5, 0.5)',
             '-o-transform': 'scale(0.5, 0.5)',
-        }
+        },
     },
     "@keyframes darkLightMode": {
         "0%": {
@@ -34,8 +34,8 @@ const useStyles = makeStyles({
             '-ms-transform': 'scale(1, 1)',
             '-moz-transform': 'scale(1, 1)',
             '-o-transform': 'scale(1, 1)',
-          }
-      }
+          },
+      },
 });
 
 export default useStyles;

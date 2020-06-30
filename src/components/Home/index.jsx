@@ -16,7 +16,6 @@ const Home = () =>  {
                 <span className={classes.titleCode}>Clone with HTTPS</span>
                 <p className={classes.editor}>git clone https://github.com/RobinPalmier/Quick-Start-React-DarkMode.git</p>
             </div>
-
             <p>Credits : Robin Palmier</p>
         </div>
     )

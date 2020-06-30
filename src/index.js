@@ -13,7 +13,6 @@ ReactDOM.render((
                         <Route path="/" name="Home" component={App}/>
                     </Switch>
                 </BrowserRouter>
-            
         </GlobalStateProvider>
 ),document.getElementById('root'));
 

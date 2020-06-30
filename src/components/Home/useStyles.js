@@ -22,8 +22,8 @@ const useStyles = makeStyles({
         margin: '10px auto 50px auto',
         '&:nth-child(4)': {
             maxWidth: 530,
-        }
-    }
+        },
+    },
 });
 
 export default useStyles;

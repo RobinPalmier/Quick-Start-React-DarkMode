@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { ReactSVG } from 'react-svg'
 import Context from '../../../store/context';
-import logo from '../../../assets/img/logo.svg'
+import logo from '../../../assets/img/logo.svg';
 import useStyles from './useStyles';
 
 const Logo = () => {
