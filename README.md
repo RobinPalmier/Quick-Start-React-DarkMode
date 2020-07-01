@@ -20,16 +20,31 @@
 
 ---
 #### Get Started : &nbsp;
+##### Download the project
 - Clone the project from github
 - In a commande terminal use a "cd" to go to the root of the project
-- Run the the commande "npm install"
-- Run the the commande "npm start"
+##### Launch the project
+
+- Run the the commande `npm install`
+- Run the the commande `npm start`
+
+OR 
+* Use docker-compose : `docker-compose up`
+
+OR
+* Use Dockerfile  `docker run -it react-darkmode bash`
 
 ---
- #### How to use :
+#### How to use :
+
 * Open [colors.js](./src/assets/style/colors.js) file.
-* 
-*
+
+```js
+const  palette  = {
+	themeLight:  '#EDEDED', // Set the color for the light theme
+	themeDark:  '#272726', 	// Set the color for the dark theme
+};
+```
 
 ---
 #### Credit :
