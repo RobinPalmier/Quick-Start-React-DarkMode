@@ -12,27 +12,27 @@
 ---
 #### Libraries used :
 
-* [React JS]([https://reactjs.org/](https://reactjs.org/))
+* [React JS](https://reactjs.org/)
 
-* [React Router]([https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router))
+* [React Router](https://github.com/ReactTraining/react-router)
 
-* [Material Style]([https://material-ui.com/styles/basics/](https://material-ui.com/styles/basics/))
+* [Material Style](https://material-ui.com/styles/basics/)
 
 ---
 #### Get Started : &nbsp;
 ##### Download the project
 - Clone the project from github
-- In a commande terminal use a `cd` to go to the root of the project
+- Use `cd` in the terminal to access in root of the project
 ##### Launch the project
 
-- Run the the commande `npm install`
-- Run the the commande `npm start`
+- To install the dependencies, use the command : `npm install`
+- To start the project, use the command : `npm start`
 
 *OR* 
-* Use docker-compose : `docker-compose up`
+* If you are using docker-compose, you can start the project with : `docker-compose up`
 
 *OR* 
-* Use Dockerfile  `docker run -it react-darkmode bash`
+* You can start the Dockerfile with : `docker run -it react-darkmode bash`
 
 ---
 #### How to use :
