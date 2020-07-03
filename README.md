@@ -48,4 +48,4 @@ const  palette  = {
 
 ---
 #### Credit :
-*30/06/2019* - MIT Licence - Robin Palmier
+*30/06/2020* - MIT Licence - Robin Palmier
