@@ -12,9 +12,13 @@
 ---
 #### Libraries used :
 
-* [React JS](https://reactjs.org/)
+* [ReactJS](https://reactjs.org/)
+
+* [React Redux](https://react-redux.js.org/)
 
 * [React Router](https://github.com/ReactTraining/react-router)
+
+* [Redux](https://redux.js.org/)
 
 * [Material Style](https://material-ui.com/styles/basics/)
 

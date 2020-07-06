@@ -1,12 +1,12 @@
-import React, { useContext } from 'react';
-import { ReactSVG } from 'react-svg'
-import Context from '../../../store/context';
+import React from 'react';
+import { ReactSVG } from 'react-svg';
+import { useSelector } from 'react-redux';
 import logo from '../../../assets/img/logo.svg';
 import useStyles from './useStyles';
 
 const Logo = () => {
-    const { state } = useContext(Context);
-    const classes = useStyles(state);
+    const theme = useSelector(state => state.theme);
+    const classes = useStyles(theme);
 
     return <ReactSVG src={logo} className={classes.logoReactJS} />
 }

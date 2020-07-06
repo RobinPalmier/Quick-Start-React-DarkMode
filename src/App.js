@@ -1,14 +1,14 @@
-import React, { useContext } from 'react';
-import Context from './store/context';
+import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import { roadMap } from './router';
 import Header from './components/Header';
 import ThemeChoice from './components/Header/Theme';
 import useStyles from './assets/style/baseStyle';
 
 const App = () => {
-  const { state } = useContext(Context);
-  const classes = useStyles(state.isDark);
+  const theme = useSelector(state => state.theme);
+  const classes = useStyles(theme);
 
   return (
       <div className={classes.app}>
